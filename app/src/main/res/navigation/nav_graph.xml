@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/world_dest">
+
+    <fragment
+        android:id="@+id/world_dest"
+        android:name="com.example.newsapp.WorldNewsFragment"
+        android:label="fragment_world_news"
+        tools:layout="@layout/fragment_news_layout" />
+    <fragment
+        android:id="@+id/sports_dest"
+        android:name="com.example.newsapp.SportsFragment"
+        android:label="fragment_sports"
+        tools:layout="@layout/fragment_sports" />
+    <fragment
+        android:id="@+id/culture_dest"
+        android:name="com.example.newsapp.CultureFragment"
+        android:label="fragment_culture"
+        tools:layout="@layout/fragment_culture" />
+    <fragment
+        android:id="@+id/lifestyle_dest"
+        android:name="com.example.newsapp.LifestyleFragment"
+        android:label="fragment_lifestyle"
+        tools:layout="@layout/fragment_lifestyle" />
+</navigation>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/world_dest"
+        android:title="@string/world_news_title"
+        android:icon="@drawable/ic_world_news"/>
+    <item
+        android:id="@+id/sports_dest"
+        android:title="@string/sports_title"
+        android:icon="@drawable/ic_sports"/>
+    <item
+        android:id="@+id/culture_dest"
+        android:title="@string/culture_title"
+        android:icon="@drawable/ic_culture"/>
+    <item
+        android:id="@+id/lifestyle_dest"
+        android:title="@string/lifestyle_title"
+        android:icon="@drawable/ic_lifestyle"/>
+
+</menu>

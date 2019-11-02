@@ -1,3 +1,12 @@
 <resources>
     <string name="app_name">News App</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="world_news_title">World News</string>
+    <string name="sports_title">Sports</string>
+    <string name="culture_title">Culture</string>
+    <string name="lifestyle_title">Lifestyle</string>
+    <string name="no_news_found">No News Found.</string>
+    <string name="no_internet_conection">No internet connection</string>
 </resources>
