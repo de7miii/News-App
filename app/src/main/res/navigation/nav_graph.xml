@@ -14,15 +14,15 @@
         android:id="@+id/sports_dest"
         android:name="com.example.newsapp.SportsFragment"
         android:label="fragment_sports"
-        tools:layout="@layout/fragment_sports" />
+        tools:layout="@layout/fragment_news_layout" />
     <fragment
         android:id="@+id/culture_dest"
         android:name="com.example.newsapp.CultureFragment"
         android:label="fragment_culture"
-        tools:layout="@layout/fragment_culture" />
+        tools:layout="@layout/fragment_news_layout" />
     <fragment
         android:id="@+id/lifestyle_dest"
         android:name="com.example.newsapp.LifestyleFragment"
         android:label="fragment_lifestyle"
-        tools:layout="@layout/fragment_lifestyle" />
+        tools:layout="@layout/fragment_news_layout" />
 </navigation>
